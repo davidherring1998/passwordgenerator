@@ -7,6 +7,7 @@ When you press the generate password button you are prompted with a series of qu
 
 links:
 https://github.com/davidherring1998/passwordgenerator
+https://davidherring1998.github.io/passwordgenerator/
 
 screenshots:
 ![Screen Shot 2022-08-18 at 2 24 46 PM](https://user-images.githubusercontent.com/106282330/185477704-56c7a937-bbf3-44da-9f1d-016890ee6abd.png)
