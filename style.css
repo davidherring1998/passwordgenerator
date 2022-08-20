@@ -15,6 +15,7 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
+  background: linear-gradient(to right, lightblue, rgb(133, 133, 206), rgb(141, 141, 231)), lightblue;
 }
 
 .wrapper {
@@ -27,14 +28,16 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(0, 37%, 14%);
+  font-size: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
+  background-color: hsl(231, 93%, 89%);
+  border-radius: 55px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 20px 20px 8px 0px;
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
@@ -46,7 +49,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #e70e0e;
   height: 2px;
 }
 
@@ -86,6 +89,12 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: blue;
+  transform: scale(1.1);
 }
 
 button[disabled] {
